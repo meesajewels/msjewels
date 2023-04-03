@@ -1,0 +1,53 @@
+/* Logo */
+#logo img{
+    
+}
+
+/* Navigation */
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 9px;
+}
+
+/* Home Section*/
+#home{
+    height: 400px;
+    padding-top: 98px;
+    padding-inline: 30px;
+}
+#home::before{
+    height: 416px;
+}
+#home h1{
+    padding-top: 10px;
+}
+#home p{
+    font-size: 14px;
+}
+
+/* Category Section */
+#category{
+    flex-direction: column;
+}
+
+/* Services Section */
+#services{
+    flex-wrap: wrap;
+}
+#services img{
+    width: 153px;
+    padding: 9px;
+}
+
+/* Recieve Discounts */
+
+
+/* Footer */
+
+/* Utility Classes */
+.h-primary{
+    font-size: 28px;
+}
